@@ -18,7 +18,6 @@ import javax.persistence.TemporalType;
 @Table(name = "T_USER")
 public class User implements Serializable {
 
-
 	private static final long serialVersionUID = 1L;
 
 	@Id
@@ -55,7 +54,7 @@ public class User implements Serializable {
 		this.role = role;
 	}
 
-
+//commentairegit
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", dateNaissance="
